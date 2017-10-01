@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92145a92-4d2a-45d1-9885-1ffc93f428b1">
+  <name>ЯРВЕТ_МониторингСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЯРВЕТ мониторинг сервера</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.ОтправкаДанных.МониторингСервера</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1975a723-0adc-48f9-87fe-fe433550669d">
+  <producedTypes>
+    <objectType typeId="3fd360e0-bb47-46f8-aded-a0e0a5f0dabe" valueTypeId="15dd59d0-fc52-49b1-9154-354dad388913">
+    </objectType>
+    <refType typeId="629adfdd-5c28-4604-aab6-0b35327bab35" valueTypeId="8c6488d4-14b8-436f-b89b-714c385e0a33">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="1ad72139-1e29-4640-b4f1-4953c26aa0c7" valueTypeId="29662a11-7798-44f0-92db-7a4d82c04d8b">
+    </selectionType>
+    <listType typeId="4140ee8b-d1a0-4543-811d-90009d612272" valueTypeId="cddaa03e-5650-4c08-a690-fd33d89c0fa2">
+    </listType>
+    <managerType typeId="44c97816-07e9-49af-861d-decde235b824" valueTypeId="f7e8dbcc-a224-4388-9214-f9b624a40f50">
+    </managerType>
+  </producedTypes>
+  <name>РабочиеСеврера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие севрера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РабочиеСеврера.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РабочиеСеврера.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="19414250-1eb2-4406-88da-3e4e83019191">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="15bd9721-f1ac-4db7-a304-9bfae505b0bf">
+    <name>ЛогинАдминистратора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логин администратора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ff687ef9-d04a-4a22-8fdd-bc731de82db6">
+    <name>ПарольАдминистартора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль администартора</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>
