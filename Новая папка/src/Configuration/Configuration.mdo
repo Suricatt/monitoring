@@ -35,5 +35,5 @@
   <commonModules>CommonModule.ОтправкаДанных</commonModules>
   <commonModules>CommonModule.ФормированиеПоказателейСерверов</commonModules>
   <scheduledJobs>ScheduledJob.ЯРВЕТ_МониторингСервера</scheduledJobs>
-  <catalogs>Catalog.РабочиеСеврера</catalogs>
+  <catalogs>Catalog.РабочиеСервера</catalogs>
 </mdclass:Configuration>
