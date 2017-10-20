@@ -13,14 +13,14 @@
     <managerType typeId="44c97816-07e9-49af-861d-decde235b824" valueTypeId="f7e8dbcc-a224-4388-9214-f9b624a40f50">
     </managerType>
   </producedTypes>
-  <name>РабочиеСеврера</name>
+  <name>РабочиеСервера</name>
   <synonym>
     <key>ru</key>
-    <value>Рабочие севрера</value>
+    <value>Рабочие сервера</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.РабочиеСеврера.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.РабочиеСеврера.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РабочиеСервера.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РабочиеСервера.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -36,6 +36,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РабочиеСервера.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="19414250-1eb2-4406-88da-3e4e83019191">
     <name>Адрес</name>
     <synonym>
@@ -78,4 +79,25 @@
     </type>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
+  <attributes uuid="4d1b1e63-2dba-4b03-aa01-a85435fb2b2f">
+    <name>ПутьКПапкеZabbix</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к папке zabbix</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="0063aa08-936f-471d-aef0-62d66a939ea6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

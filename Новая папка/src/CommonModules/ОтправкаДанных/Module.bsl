@@ -15,8 +15,8 @@
 	
 	Для Каждого Данные Из ДанныеСерверов Цикл
 
-		КомандаZabbix = "C:/zabbix_agent/bin/win64/zabbix_sender.exe -c C:/zabbix_agent/conf/zabbix_agentd.win.conf -s """
-			+ Данные.ИмяСервера + """ -i" + Данные.ПутьКФайлуДанных;
+		КомандаZabbix = Данные.ПутьКПапкеZabbix + "\bin\win64\zabbix_sender.exe -c "+Данные.ПутьКПапкеZabbix +"\conf\zabbix_agentd.win.conf -s """
+			+ Данные.ИмяСервера + """ -i " + Данные.ПутьКФайлуДанных;
 		ЗапуститьПриложение(КомандаZabbix);
 
 	КонецЦикла;
